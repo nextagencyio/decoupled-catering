@@ -1,0 +1,185 @@
+{
+  "data": {
+    "nodeMenuPackages": {
+      "__typename": "NodeMenuPackageConnection",
+      "nodes": [
+        {
+          "__typename": "NodeMenuPackage",
+          "id": "package-essential",
+          "title": "Essential Package",
+          "path": "/packages/essential",
+          "body": {
+            "processed": "<p>Our Essential Package is perfect for casual gatherings, office lunches, and informal celebrations. Featuring a carefully curated buffet-style menu with high-quality ingredients and generous portions, this package proves that approachable dining can still be exceptional.</p><p>All Essential packages include compostable serviceware, napkins, and serving utensils. Add-ons available to elevate your event.</p>",
+            "summary": "Our Essential Package is perfect for casual gatherings, office lunches, and informal celebrations. Featuring a carefully curated buffet-style menu with high-quality ingredients and generous portions, "
+          },
+          "pricePerPerson": "$35",
+          "minimumGuests": 20,
+          "packageTier": [
+            {
+              "id": "essential",
+              "name": "essential"
+            }
+          ],
+          "courses": [
+            "Choice of 2 salads",
+            "2 entree options",
+            "2 side dishes",
+            "Bread and butter",
+            "Non-alcoholic beverages"
+          ],
+          "addOns": [
+            "Dessert station ($8/person)",
+            "Charcuterie display ($12/person)",
+            "Bar service ($15/person)",
+            "Coffee and tea service ($4/person)"
+          ],
+          "image": {
+            "url": "https://images.unsplash.com/photo-1555244162-803834f70033?w=800&q=80",
+            "alt": "Elegant buffet spread with fresh salads and entrees",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1555244162-803834f70033?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1555244162-803834f70033?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1555244162-803834f70033?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeMenuPackage",
+          "id": "package-classic",
+          "title": "Classic Package",
+          "path": "/packages/classic",
+          "body": {
+            "processed": "<p>The Classic Package offers a refined dining experience with plated service, seasonal menus, and professional wait staff. Ideal for weddings, milestone celebrations, and formal corporate events, this package balances elegance with value.</p><p>Includes a dedicated event captain, professional service staff (1 server per 20 guests), china and glassware, and linen napkins.</p>",
+            "summary": "The Classic Package offers a refined dining experience with plated service, seasonal menus, and professional wait staff. Ideal for weddings, milestone celebrations, and formal corporate events, this p"
+          },
+          "pricePerPerson": "$65",
+          "minimumGuests": 30,
+          "packageTier": [
+            {
+              "id": "classic",
+              "name": "classic"
+            }
+          ],
+          "courses": [
+            "Passed appetizers (3 selections)",
+            "Plated salad",
+            "Choice of 2 plated entrees",
+            "Seasonal vegetable and starch",
+            "Fresh-baked rolls",
+            "Dessert course",
+            "Coffee and tea"
+          ],
+          "addOns": [
+            "Late-night snack station ($10/person)",
+            "Premium bar package ($22/person)",
+            "Raw bar display ($18/person)",
+            "Custom cake ($6/person)"
+          ],
+          "image": {
+            "url": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80",
+            "alt": "Beautifully plated fine dining course with garnish",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeMenuPackage",
+          "id": "package-premium",
+          "title": "Premium Package",
+          "path": "/packages/premium",
+          "body": {
+            "processed": "<p>Our Premium Package delivers a true fine-dining experience wherever your event takes place. Featuring multi-course tasting menus, artfully presented dishes, and sommelier-selected wine pairings, this package transforms any venue into a world-class restaurant.</p><p>Includes a pre-event tasting for the host, custom menu design consultation with our executive chef, full bar service, and a dedicated event manager from planning through execution.</p>",
+            "summary": "Our Premium Package delivers a true fine-dining experience wherever your event takes place. Featuring multi-course tasting menus, artfully presented dishes, and sommelier-selected wine pairings, this "
+          },
+          "pricePerPerson": "$110",
+          "minimumGuests": 40,
+          "packageTier": [
+            {
+              "id": "premium",
+              "name": "premium"
+            }
+          ],
+          "courses": [
+            "Cocktail hour with 5 passed appetizers",
+            "Amuse-bouche",
+            "First course",
+            "Intermezzo sorbet",
+            "Choice of 3 plated entrees",
+            "Dessert trio",
+            "Petit fours and coffee",
+            "Sommelier-selected wine pairings"
+          ],
+          "addOns": [
+            "Oyster and champagne reception ($25/person)",
+            "After-party food station ($15/person)",
+            "Edible favors ($8/person)",
+            "Private chef's table experience ($50/person)"
+          ],
+          "image": {
+            "url": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&q=80",
+            "alt": "Premium multi-course tasting menu presentation",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

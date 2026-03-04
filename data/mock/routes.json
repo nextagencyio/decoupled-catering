@@ -1,0 +1,530 @@
+{
+  "/homepage": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeHomepage",
+          "id": "homepage",
+          "title": "Welcome to Ember & Oak Catering",
+          "path": "/homepage",
+          "heroTitle": "Exceptional Cuisine for Every Occasion",
+          "heroSubtitle": "Full-Service Catering & Event Dining",
+          "heroDescription": {
+            "processed": "<p>From intimate dinner parties to grand corporate galas, Ember & Oak Catering brings culinary excellence to your most important moments. Our team of talented chefs, experienced event planners, and professional service staff work together to create dining experiences that your guests will remember.</p>",
+            "summary": "From intimate dinner parties to grand corporate galas, Ember & Oak Catering brings culinary excellence to your most important moments. Our team of talented chefs, experienced event planners, and profe"
+          },
+          "statsItems": [
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-events",
+              "title": "",
+              "number": "1,200+",
+              "label": "Events Catered"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-guests",
+              "title": "",
+              "number": "250K+",
+              "label": "Guests Served"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-years",
+              "title": "",
+              "number": "18",
+              "label": "Years of Service"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-rating",
+              "title": "",
+              "number": "4.9",
+              "label": "Client Satisfaction"
+            }
+          ],
+          "featuredPackagesTitle": "Our Catering Packages",
+          "ctaTitle": "Let's Plan Your Event",
+          "ctaDescription": {
+            "processed": "<p>Every great event starts with a conversation. Tell us about your vision, and we'll create a custom proposal tailored to your event, your guests, and your budget.</p>",
+            "summary": "Every great event starts with a conversation. Tell us about your vision, and we'll create a custom proposal tailored to your event, your guests, and your budget."
+          },
+          "ctaPrimary": "Request a Quote",
+          "ctaSecondary": "View Sample Menus"
+        }
+      }
+    }
+  },
+  "/packages/essential": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeMenuPackage",
+          "id": "package-essential",
+          "title": "Essential Package",
+          "path": "/packages/essential",
+          "body": {
+            "processed": "<p>Our Essential Package is perfect for casual gatherings, office lunches, and informal celebrations. Featuring a carefully curated buffet-style menu with high-quality ingredients and generous portions, this package proves that approachable dining can still be exceptional.</p><p>All Essential packages include compostable serviceware, napkins, and serving utensils. Add-ons available to elevate your event.</p>",
+            "summary": "Our Essential Package is perfect for casual gatherings, office lunches, and informal celebrations. Featuring a carefully curated buffet-style menu with high-quality ingredients and generous portions, "
+          },
+          "pricePerPerson": "$35",
+          "minimumGuests": 20,
+          "packageTier": [
+            {
+              "id": "essential",
+              "name": "essential"
+            }
+          ],
+          "courses": [
+            "Choice of 2 salads",
+            "2 entree options",
+            "2 side dishes",
+            "Bread and butter",
+            "Non-alcoholic beverages"
+          ],
+          "addOns": [
+            "Dessert station ($8/person)",
+            "Charcuterie display ($12/person)",
+            "Bar service ($15/person)",
+            "Coffee and tea service ($4/person)"
+          ],
+          "image": {
+            "url": "https://images.unsplash.com/photo-1555244162-803834f70033?w=800&q=80",
+            "alt": "Elegant buffet spread with fresh salads and entrees",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1555244162-803834f70033?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1555244162-803834f70033?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1555244162-803834f70033?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/packages/classic": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeMenuPackage",
+          "id": "package-classic",
+          "title": "Classic Package",
+          "path": "/packages/classic",
+          "body": {
+            "processed": "<p>The Classic Package offers a refined dining experience with plated service, seasonal menus, and professional wait staff. Ideal for weddings, milestone celebrations, and formal corporate events, this package balances elegance with value.</p><p>Includes a dedicated event captain, professional service staff (1 server per 20 guests), china and glassware, and linen napkins.</p>",
+            "summary": "The Classic Package offers a refined dining experience with plated service, seasonal menus, and professional wait staff. Ideal for weddings, milestone celebrations, and formal corporate events, this p"
+          },
+          "pricePerPerson": "$65",
+          "minimumGuests": 30,
+          "packageTier": [
+            {
+              "id": "classic",
+              "name": "classic"
+            }
+          ],
+          "courses": [
+            "Passed appetizers (3 selections)",
+            "Plated salad",
+            "Choice of 2 plated entrees",
+            "Seasonal vegetable and starch",
+            "Fresh-baked rolls",
+            "Dessert course",
+            "Coffee and tea"
+          ],
+          "addOns": [
+            "Late-night snack station ($10/person)",
+            "Premium bar package ($22/person)",
+            "Raw bar display ($18/person)",
+            "Custom cake ($6/person)"
+          ],
+          "image": {
+            "url": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80",
+            "alt": "Beautifully plated fine dining course with garnish",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/packages/premium": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeMenuPackage",
+          "id": "package-premium",
+          "title": "Premium Package",
+          "path": "/packages/premium",
+          "body": {
+            "processed": "<p>Our Premium Package delivers a true fine-dining experience wherever your event takes place. Featuring multi-course tasting menus, artfully presented dishes, and sommelier-selected wine pairings, this package transforms any venue into a world-class restaurant.</p><p>Includes a pre-event tasting for the host, custom menu design consultation with our executive chef, full bar service, and a dedicated event manager from planning through execution.</p>",
+            "summary": "Our Premium Package delivers a true fine-dining experience wherever your event takes place. Featuring multi-course tasting menus, artfully presented dishes, and sommelier-selected wine pairings, this "
+          },
+          "pricePerPerson": "$110",
+          "minimumGuests": 40,
+          "packageTier": [
+            {
+              "id": "premium",
+              "name": "premium"
+            }
+          ],
+          "courses": [
+            "Cocktail hour with 5 passed appetizers",
+            "Amuse-bouche",
+            "First course",
+            "Intermezzo sorbet",
+            "Choice of 3 plated entrees",
+            "Dessert trio",
+            "Petit fours and coffee",
+            "Sommelier-selected wine pairings"
+          ],
+          "addOns": [
+            "Oyster and champagne reception ($25/person)",
+            "After-party food station ($15/person)",
+            "Edible favors ($8/person)",
+            "Private chef's table experience ($50/person)"
+          ],
+          "image": {
+            "url": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&q=80",
+            "alt": "Premium multi-course tasting menu presentation",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/events/weddings": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeEventType",
+          "id": "event-type-wedding",
+          "title": "Wedding Catering",
+          "path": "/events/weddings",
+          "body": {
+            "processed": "<p>Your wedding day deserves a dining experience as extraordinary as your love story. At Ember & Oak, we specialize in creating custom wedding menus that reflect your personal style, cultural traditions, and seasonal preferences. From an elegant cocktail hour to the last slice of cake, we handle every culinary detail.</p><h2>Our Wedding Process</h2><p>We begin with a complimentary consultation to understand your vision. From there, our executive chef designs a custom menu, which you'll experience at a private tasting. On the day of your wedding, our team arrives hours early to ensure every plate is perfect.</p>",
+            "summary": "Your wedding day deserves a dining experience as extraordinary as your love story. At Ember & Oak, we specialize in creating custom wedding menus that reflect your personal style, cultural traditions,"
+          },
+          "guestRange": "50 - 500 guests",
+          "serviceStyle": [
+            "Plated dinner",
+            "Family style",
+            "Buffet",
+            "Stations",
+            "Cocktail reception"
+          ],
+          "highlights": [
+            "Custom menu design",
+            "Complimentary tasting",
+            "Dietary accommodation",
+            "Cake cutting service",
+            "Late-night snack options",
+            "Bilingual service staff"
+          ],
+          "image": {
+            "url": "https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=800&q=80",
+            "alt": "Elegant wedding reception table with floral centerpieces",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/events/corporate": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeEventType",
+          "id": "event-type-corporate",
+          "title": "Corporate Events",
+          "path": "/events/corporate",
+          "body": {
+            "processed": "<p>From board meetings to product launches, holiday parties to client appreciation dinners, our corporate catering services help you make the right impression. We understand the pace and professionalism required for business events and deliver accordingly — on time, on brand, and on budget.</p><h2>Corporate Services</h2><p>We offer flexible menus and service styles to fit any corporate event. Our team can work within your brand guidelines, accommodate tight timelines, and scale from executive lunches for 10 to company-wide celebrations for 500+.</p>",
+            "summary": "From board meetings to product launches, holiday parties to client appreciation dinners, our corporate catering services help you make the right impression. We understand the pace and professionalism "
+          },
+          "guestRange": "10 - 500+ guests",
+          "serviceStyle": [
+            "Boxed lunches",
+            "Working lunch buffet",
+            "Cocktail reception",
+            "Plated dinner",
+            "Interactive food stations"
+          ],
+          "highlights": [
+            "Invoice billing available",
+            "Brand-aligned presentation",
+            "Dietary surveys for attendees",
+            "AV-compatible setup timing",
+            "On-site event captain",
+            "Sustainable packaging options"
+          ],
+          "image": {
+            "url": "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?w=800&q=80",
+            "alt": "Professional corporate event with catered food service",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/events/private-parties": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeEventType",
+          "id": "event-type-private",
+          "title": "Private Parties & Celebrations",
+          "path": "/events/private-parties",
+          "body": {
+            "processed": "<p>Life's milestones deserve to be celebrated with great food and even better company. Whether it's a birthday, anniversary, retirement, baby shower, or holiday gathering, we bring the same level of care and creativity to every celebration, big or small.</p><h2>Popular Party Options</h2><p>Our private party service is fully customizable. Choose from passed appetizers and cocktails for a casual gathering, a seated multi-course dinner for an intimate affair, or a themed food station experience for something more interactive and fun.</p>",
+            "summary": "Life's milestones deserve to be celebrated with great food and even better company. Whether it's a birthday, anniversary, retirement, baby shower, or holiday gathering, we bring the same level of care"
+          },
+          "guestRange": "15 - 200 guests",
+          "serviceStyle": [
+            "Passed appetizers",
+            "Cocktail party",
+            "Seated dinner",
+            "Food stations",
+            "Family style"
+          ],
+          "highlights": [
+            "Theme-based menus",
+            "Kid-friendly options",
+            "Custom dessert tables",
+            "Bartending service",
+            "Event setup and cleanup",
+            "Rental coordination"
+          ],
+          "image": {
+            "url": "https://images.unsplash.com/photo-1530103862676-de8c9debad1d?w=800&q=80",
+            "alt": "Festive private party with appetizers and decorations",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1530103862676-de8c9debad1d?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1530103862676-de8c9debad1d?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1530103862676-de8c9debad1d?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/testimonials/perfect-wedding-feast": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeTestimonial",
+          "id": "testimonial-wedding-1",
+          "title": "A Perfect Wedding Feast",
+          "path": "/testimonials/perfect-wedding-feast",
+          "body": {
+            "processed": "<p>Ember & Oak catered our wedding for 180 guests and every single person commented on how incredible the food was. The seared scallop appetizer had guests asking for the recipe, and the filet mignon was cooked to perfection. Our event captain, Daniella, was calm, organized, and made the entire evening seamless. We couldn't imagine our wedding without them.</p>",
+            "summary": "Ember & Oak catered our wedding for 180 guests and every single person commented on how incredible the food was. The seared scallop appetizer had guests asking for the recipe, and the filet mignon was"
+          },
+          "clientName": "Rachel & Tom Henderson",
+          "eventHosted": "Wedding Reception",
+          "rating": 5,
+          "guestCountServed": 180
+        }
+      }
+    }
+  },
+  "/testimonials/impressed-our-board": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeTestimonial",
+          "id": "testimonial-corporate-1",
+          "title": "Impressed Our Entire Board",
+          "path": "/testimonials/impressed-our-board",
+          "body": {
+            "processed": "<p>We hired Ember & Oak for our annual board of directors dinner and they exceeded every expectation. The custom menu featured locally sourced ingredients, the wine pairings were impeccable, and the service was discreet and professional. Several board members said it was the best corporate dinner they've attended. We've now contracted them for all our quarterly events.</p>",
+            "summary": "We hired Ember & Oak for our annual board of directors dinner and they exceeded every expectation. The custom menu featured locally sourced ingredients, the wine pairings were impeccable, and the serv"
+          },
+          "clientName": "Catherine Park, CEO",
+          "eventHosted": "Board of Directors Dinner",
+          "rating": 5,
+          "guestCountServed": 45
+        }
+      }
+    }
+  },
+  "/testimonials/unforgettable-retirement": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeTestimonial",
+          "id": "testimonial-party-1",
+          "title": "An Unforgettable Retirement Party",
+          "path": "/testimonials/unforgettable-retirement",
+          "body": {
+            "processed": "<p>We wanted my father's retirement party to be special after 35 years of service, and Ember & Oak delivered beyond our wildest dreams. The food stations were creative and delicious, the bartender kept the cocktails flowing, and they even created a custom dessert based on my dad's favorite childhood cake recipe. It was personal, thoughtful, and absolutely delicious.</p>",
+            "summary": "We wanted my father's retirement party to be special after 35 years of service, and Ember & Oak delivered beyond our wildest dreams. The food stations were creative and delicious, the bartender kept t"
+          },
+          "clientName": "Marcus Williams",
+          "eventHosted": "Retirement Celebration",
+          "rating": 5,
+          "guestCountServed": 75
+        }
+      }
+    }
+  },
+  "/about": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodePage",
+          "id": "page-about",
+          "title": "About Ember & Oak Catering",
+          "path": "/about",
+          "body": {
+            "processed": "<p>Ember & Oak Catering was founded in 2008 by Executive Chef Alejandro Reyes and event planner Natalie Kim, who shared a vision of bringing restaurant-quality dining to events of every size. Today, we're one of the region's most trusted catering companies, serving over 200 events per year.</p><h2>Our Team</h2><p>Our culinary team is led by Chef Alejandro, a Culinary Institute of America graduate with over 20 years in fine dining. Our event managers, service captains, and bartenders are experienced professionals who take genuine pride in creating exceptional experiences.</p><h2>Our Kitchen</h2><p>We operate from a 5,000-square-foot commercial kitchen equipped with the same tools you'd find in a top restaurant. Every dish is prepared fresh — we never use frozen entrees, pre-made sauces, or artificial ingredients.</p><h2>Our Values</h2><ul><li><strong>Quality First</strong> — We source the finest seasonal ingredients from local farms and purveyors</li><li><strong>Personalized Service</strong> — Every event gets a custom menu and dedicated team</li><li><strong>Sustainability</strong> — We minimize waste, compost, and use eco-friendly packaging</li><li><strong>Community</strong> — We donate surplus food to local shelters and food banks</li></ul>",
+            "summary": "Ember & Oak Catering was founded in 2008 by Executive Chef Alejandro Reyes and event planner Natalie Kim, who shared a vision of bringing restaurant-quality dining to events of every size. Today, we'r"
+          }
+        }
+      }
+    }
+  },
+  "/process": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodePage",
+          "id": "page-process",
+          "title": "Our Process",
+          "path": "/process",
+          "body": {
+            "processed": "<h2>Step 1: Consultation</h2><p>We start with a complimentary phone or in-person consultation to learn about your event — the occasion, your guest count, venue, budget, and culinary preferences. This conversation helps us understand your vision and recommend the right package.</p><h2>Step 2: Custom Proposal</h2><p>Within 48 hours of our consultation, you'll receive a detailed proposal including a custom menu, service plan, staffing breakdown, and transparent pricing. We're happy to revise until it's perfect.</p><h2>Step 3: Tasting</h2><p>For events of 50 guests or more, we offer a private tasting at our kitchen. You'll sample dishes from your proposed menu, provide feedback, and finalize your selections. Tastings are complimentary with a signed contract.</p><h2>Step 4: Event Day</h2><p>Our team handles all food preparation, transportation, setup, service, and cleanup. Your dedicated event captain is your single point of contact throughout the day, ensuring everything runs smoothly so you can focus on your guests.</p><h2>Step 5: Follow-Up</h2><p>After your event, we follow up to ensure everything exceeded your expectations. We value your feedback and use it to continually improve our service.</p>",
+            "summary": "Step 1: ConsultationWe start with a complimentary phone or in-person consultation to learn about your event — the occasion, your guest count, venue, budget, and culinary preferences. This conversation"
+          }
+        }
+      }
+    }
+  }
+}

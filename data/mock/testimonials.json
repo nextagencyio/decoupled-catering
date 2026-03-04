@@ -1,0 +1,51 @@
+{
+  "data": {
+    "nodeTestimonials": {
+      "__typename": "NodeTestimonialConnection",
+      "nodes": [
+        {
+          "__typename": "NodeTestimonial",
+          "id": "testimonial-wedding-1",
+          "title": "A Perfect Wedding Feast",
+          "path": "/testimonials/perfect-wedding-feast",
+          "body": {
+            "processed": "<p>Ember & Oak catered our wedding for 180 guests and every single person commented on how incredible the food was. The seared scallop appetizer had guests asking for the recipe, and the filet mignon was cooked to perfection. Our event captain, Daniella, was calm, organized, and made the entire evening seamless. We couldn't imagine our wedding without them.</p>",
+            "summary": "Ember & Oak catered our wedding for 180 guests and every single person commented on how incredible the food was. The seared scallop appetizer had guests asking for the recipe, and the filet mignon was"
+          },
+          "clientName": "Rachel & Tom Henderson",
+          "eventHosted": "Wedding Reception",
+          "rating": 5,
+          "guestCountServed": 180
+        },
+        {
+          "__typename": "NodeTestimonial",
+          "id": "testimonial-corporate-1",
+          "title": "Impressed Our Entire Board",
+          "path": "/testimonials/impressed-our-board",
+          "body": {
+            "processed": "<p>We hired Ember & Oak for our annual board of directors dinner and they exceeded every expectation. The custom menu featured locally sourced ingredients, the wine pairings were impeccable, and the service was discreet and professional. Several board members said it was the best corporate dinner they've attended. We've now contracted them for all our quarterly events.</p>",
+            "summary": "We hired Ember & Oak for our annual board of directors dinner and they exceeded every expectation. The custom menu featured locally sourced ingredients, the wine pairings were impeccable, and the serv"
+          },
+          "clientName": "Catherine Park, CEO",
+          "eventHosted": "Board of Directors Dinner",
+          "rating": 5,
+          "guestCountServed": 45
+        },
+        {
+          "__typename": "NodeTestimonial",
+          "id": "testimonial-party-1",
+          "title": "An Unforgettable Retirement Party",
+          "path": "/testimonials/unforgettable-retirement",
+          "body": {
+            "processed": "<p>We wanted my father's retirement party to be special after 35 years of service, and Ember & Oak delivered beyond our wildest dreams. The food stations were creative and delicious, the bartender kept the cocktails flowing, and they even created a custom dessert based on my dad's favorite childhood cake recipe. It was personal, thoughtful, and absolutely delicious.</p>",
+            "summary": "We wanted my father's retirement party to be special after 35 years of service, and Ember & Oak delivered beyond our wildest dreams. The food stations were creative and delicious, the bartender kept t"
+          },
+          "clientName": "Marcus Williams",
+          "eventHosted": "Retirement Celebration",
+          "rating": 5,
+          "guestCountServed": 75
+        }
+      ]
+    }
+  }
+}

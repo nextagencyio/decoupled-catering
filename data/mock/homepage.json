@@ -1,0 +1,59 @@
+{
+  "data": {
+    "nodeHomepages": {
+      "__typename": "NodeHomepageConnection",
+      "nodes": [
+        {
+          "__typename": "NodeHomepage",
+          "id": "homepage",
+          "title": "Welcome to Ember & Oak Catering",
+          "path": "/homepage",
+          "heroTitle": "Exceptional Cuisine for Every Occasion",
+          "heroSubtitle": "Full-Service Catering & Event Dining",
+          "heroDescription": {
+            "processed": "<p>From intimate dinner parties to grand corporate galas, Ember & Oak Catering brings culinary excellence to your most important moments. Our team of talented chefs, experienced event planners, and professional service staff work together to create dining experiences that your guests will remember.</p>",
+            "summary": "From intimate dinner parties to grand corporate galas, Ember & Oak Catering brings culinary excellence to your most important moments. Our team of talented chefs, experienced event planners, and profe"
+          },
+          "statsItems": [
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-events",
+              "title": "",
+              "number": "1,200+",
+              "label": "Events Catered"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-guests",
+              "title": "",
+              "number": "250K+",
+              "label": "Guests Served"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-years",
+              "title": "",
+              "number": "18",
+              "label": "Years of Service"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-rating",
+              "title": "",
+              "number": "4.9",
+              "label": "Client Satisfaction"
+            }
+          ],
+          "featuredPackagesTitle": "Our Catering Packages",
+          "ctaTitle": "Let's Plan Your Event",
+          "ctaDescription": {
+            "processed": "<p>Every great event starts with a conversation. Tell us about your vision, and we'll create a custom proposal tailored to your event, your guests, and your budget.</p>",
+            "summary": "Every great event starts with a conversation. Tell us about your vision, and we'll create a custom proposal tailored to your event, your guests, and your budget."
+          },
+          "ctaPrimary": "Request a Quote",
+          "ctaSecondary": "View Sample Menus"
+        }
+      ]
+    }
+  }
+}

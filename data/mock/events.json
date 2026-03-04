@@ -1,0 +1,165 @@
+{
+  "data": {
+    "nodeEventTypes": {
+      "__typename": "NodeEventTypeConnection",
+      "nodes": [
+        {
+          "__typename": "NodeEventType",
+          "id": "event-type-wedding",
+          "title": "Wedding Catering",
+          "path": "/events/weddings",
+          "body": {
+            "processed": "<p>Your wedding day deserves a dining experience as extraordinary as your love story. At Ember & Oak, we specialize in creating custom wedding menus that reflect your personal style, cultural traditions, and seasonal preferences. From an elegant cocktail hour to the last slice of cake, we handle every culinary detail.</p><h2>Our Wedding Process</h2><p>We begin with a complimentary consultation to understand your vision. From there, our executive chef designs a custom menu, which you'll experience at a private tasting. On the day of your wedding, our team arrives hours early to ensure every plate is perfect.</p>",
+            "summary": "Your wedding day deserves a dining experience as extraordinary as your love story. At Ember & Oak, we specialize in creating custom wedding menus that reflect your personal style, cultural traditions,"
+          },
+          "guestRange": "50 - 500 guests",
+          "serviceStyle": [
+            "Plated dinner",
+            "Family style",
+            "Buffet",
+            "Stations",
+            "Cocktail reception"
+          ],
+          "highlights": [
+            "Custom menu design",
+            "Complimentary tasting",
+            "Dietary accommodation",
+            "Cake cutting service",
+            "Late-night snack options",
+            "Bilingual service staff"
+          ],
+          "image": {
+            "url": "https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=800&q=80",
+            "alt": "Elegant wedding reception table with floral centerpieces",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeEventType",
+          "id": "event-type-corporate",
+          "title": "Corporate Events",
+          "path": "/events/corporate",
+          "body": {
+            "processed": "<p>From board meetings to product launches, holiday parties to client appreciation dinners, our corporate catering services help you make the right impression. We understand the pace and professionalism required for business events and deliver accordingly — on time, on brand, and on budget.</p><h2>Corporate Services</h2><p>We offer flexible menus and service styles to fit any corporate event. Our team can work within your brand guidelines, accommodate tight timelines, and scale from executive lunches for 10 to company-wide celebrations for 500+.</p>",
+            "summary": "From board meetings to product launches, holiday parties to client appreciation dinners, our corporate catering services help you make the right impression. We understand the pace and professionalism "
+          },
+          "guestRange": "10 - 500+ guests",
+          "serviceStyle": [
+            "Boxed lunches",
+            "Working lunch buffet",
+            "Cocktail reception",
+            "Plated dinner",
+            "Interactive food stations"
+          ],
+          "highlights": [
+            "Invoice billing available",
+            "Brand-aligned presentation",
+            "Dietary surveys for attendees",
+            "AV-compatible setup timing",
+            "On-site event captain",
+            "Sustainable packaging options"
+          ],
+          "image": {
+            "url": "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?w=800&q=80",
+            "alt": "Professional corporate event with catered food service",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeEventType",
+          "id": "event-type-private",
+          "title": "Private Parties & Celebrations",
+          "path": "/events/private-parties",
+          "body": {
+            "processed": "<p>Life's milestones deserve to be celebrated with great food and even better company. Whether it's a birthday, anniversary, retirement, baby shower, or holiday gathering, we bring the same level of care and creativity to every celebration, big or small.</p><h2>Popular Party Options</h2><p>Our private party service is fully customizable. Choose from passed appetizers and cocktails for a casual gathering, a seated multi-course dinner for an intimate affair, or a themed food station experience for something more interactive and fun.</p>",
+            "summary": "Life's milestones deserve to be celebrated with great food and even better company. Whether it's a birthday, anniversary, retirement, baby shower, or holiday gathering, we bring the same level of care"
+          },
+          "guestRange": "15 - 200 guests",
+          "serviceStyle": [
+            "Passed appetizers",
+            "Cocktail party",
+            "Seated dinner",
+            "Food stations",
+            "Family style"
+          ],
+          "highlights": [
+            "Theme-based menus",
+            "Kid-friendly options",
+            "Custom dessert tables",
+            "Bartending service",
+            "Event setup and cleanup",
+            "Rental coordination"
+          ],
+          "image": {
+            "url": "https://images.unsplash.com/photo-1530103862676-de8c9debad1d?w=800&q=80",
+            "alt": "Festive private party with appetizers and decorations",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1530103862676-de8c9debad1d?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1530103862676-de8c9debad1d?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1530103862676-de8c9debad1d?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
