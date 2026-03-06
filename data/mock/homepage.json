@@ -19,28 +19,28 @@
               "__typename": "ParagraphStatItem",
               "id": "stat-events",
               "title": "",
-              "number": "1,200+",
+              "number": "1,200+", "value": "1,200+",
               "label": "Events Catered"
             },
             {
               "__typename": "ParagraphStatItem",
               "id": "stat-guests",
               "title": "",
-              "number": "250K+",
+              "number": "250K+", "value": "250K+",
               "label": "Guests Served"
             },
             {
               "__typename": "ParagraphStatItem",
               "id": "stat-years",
               "title": "",
-              "number": "18",
+              "number": "18", "value": "18",
               "label": "Years of Service"
             },
             {
               "__typename": "ParagraphStatItem",
               "id": "stat-rating",
               "title": "",
-              "number": "4.9",
+              "number": "4.9", "value": "4.9",
               "label": "Client Satisfaction"
             }
           ],
