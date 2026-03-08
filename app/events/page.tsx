@@ -7,6 +7,7 @@ import Header from '../components/Header'
 import EventTypeCard from '../components/EventTypeCard'
 
 export const revalidate = 3600
+export const dynamic = 'force-dynamic'
 
 export const metadata: Metadata = {
   title: 'Event Types | Sterling Events Catering',

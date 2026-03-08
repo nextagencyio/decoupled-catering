@@ -7,6 +7,7 @@ import Header from '../components/Header'
 import MenuPackageCard from '../components/MenuPackageCard'
 
 export const revalidate = 3600
+export const dynamic = 'force-dynamic'
 
 export const metadata: Metadata = {
   title: 'Menu Packages | Sterling Events Catering',
