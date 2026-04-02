@@ -82,11 +82,11 @@ export const GET_HOMEPAGE_DATA = gql`
         path
         heroTitle
         heroSubtitle
-        heroDescription { processed summary }
-        statsItems { ... on ParagraphStatItem { id title description { processed } icon } }
+        heroDescription { processed }
+        statsItems { ... on ParagraphStatItem { id number label } }
         featuredPackagesTitle
         ctaTitle
-        ctaDescription { processed summary }
+        ctaDescription { processed }
         ctaPrimary
         ctaSecondary
       }
@@ -139,24 +139,52 @@ export const GET_NODE_BY_PATH = gql`
             heroDescription {
               processed
             }
-            featuresTitle
-            featuresSubtitle
-            featuresItems {
-              ... on ParagraphFeatureItem {
+            statsItems {
+              ... on ParagraphStatItem {
                 id
-                title
-                description {
-                  processed
-                }
-                icon
+                number
+                label
               }
             }
+            featuredPackagesTitle
             ctaTitle
             ctaDescription {
               processed
             }
             ctaPrimary
             ctaSecondary
+          }
+          ... on NodeMenuPackage {
+            id
+            title
+            path
+            body { processed }
+            pricePerPerson
+            minimumGuests
+            packageTier { ... on TermPackageTier { name } }
+            courses
+            addOns
+            image { url alt width height }
+          }
+          ... on NodeEventType {
+            id
+            title
+            path
+            body { processed }
+            guestRange
+            serviceStyle
+            highlights
+            image { url alt width height }
+          }
+          ... on NodeTestimonial {
+            id
+            title
+            path
+            body { processed }
+            clientName
+            eventHosted
+            rating
+            guestCountServed
           }
         }
       }
@@ -176,7 +204,7 @@ export const GET_MENU_PACKAGES = gql`
           body { processed summary }
           pricePerPerson
           minimumGuests
-          packageTier
+          packageTier { ... on TermPackageTier { name } }
           courses
           addOns
           image { url alt width height variations(styles: [LARGE, MEDIUM, THUMBNAIL]) { name url width height } }
@@ -198,7 +226,7 @@ export const GET_MENU_PACKAGE_BY_PATH = gql`
           body { processed summary }
           pricePerPerson
           minimumGuests
-          packageTier
+          packageTier { ... on TermPackageTier { name } }
           courses
           addOns
           image { url alt width height variations(styles: [LARGE, MEDIUM, THUMBNAIL]) { name url width height } }

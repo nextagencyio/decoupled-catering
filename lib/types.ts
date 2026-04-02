@@ -63,9 +63,8 @@ export interface DrupalHomepage extends DrupalNode {
   heroDescription?: {
     processed: string
   }
-  featuresTitle?: string
-  featuresSubtitle?: string
-  featuresItems?: DrupalFeature[]
+  statsItems?: Array<{ id: string; number: string; label: string }>
+  featuredPackagesTitle?: string
   ctaTitle?: string
   ctaDescription?: {
     processed: string
@@ -98,9 +97,9 @@ export interface DrupalMenuPackage {
   body?: { processed: string; summary?: string }
   pricePerPerson?: string
   minimumGuests?: number
-  packageTier?: string
-  courses?: string
-  addOns?: string
+  packageTier?: Array<{ name: string }>
+  courses?: string[]
+  addOns?: string[]
   image?: { url: string; alt: string; width?: number; height?: number; variations?: { name: string; url: string; width: number; height: number }[] }
 }
 
@@ -116,8 +115,8 @@ export interface DrupalEventType {
   path?: string
   body?: { processed: string; summary?: string }
   guestRange?: string
-  serviceStyle?: string
-  highlights?: string
+  serviceStyle?: string[]
+  highlights?: string[]
   image?: { url: string; alt: string; width?: number; height?: number; variations?: { name: string; url: string; width: number; height: number }[] }
 }
 
