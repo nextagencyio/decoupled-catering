@@ -1,8 +1,7 @@
+import { getClient } from '@/lib/drupal-client'
 import { Metadata } from 'next'
 import { notFound } from 'next/navigation'
-import { headers } from 'next/headers'
 import Link from 'next/link'
-import { getServerApolloClient } from '@/lib/apollo-client'
 import { GET_MENU_PACKAGE_BY_PATH } from '@/lib/queries'
 import { DrupalMenuPackage } from '@/lib/types'
 import Header from '../../components/Header'
@@ -24,13 +23,8 @@ interface MenuPackageByPathData {
 
 async function getMenuPackage(path: string): Promise<DrupalMenuPackage | null> {
   try {
-    const requestHeaders = await headers()
-    const apolloClient = getServerApolloClient(requestHeaders)
-    const { data } = await apolloClient.query<MenuPackageByPathData>({
-      query: GET_MENU_PACKAGE_BY_PATH,
-      variables: { path },
-      fetchPolicy: 'cache-first',
-    })
+    const client = getClient()
+    const { data } = await client.raw(GET_MENU_PACKAGE_BY_PATH, { path })
     return data?.route?.entity || null
   } catch (error) {
     console.error('Error fetching menu package:', error)
